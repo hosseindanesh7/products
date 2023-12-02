@@ -1,10 +1,10 @@
 <template>
   <v-flex>
     <v-row>
-      <v-col cols="3">
+      <v-col cols="12" md="3">
         <filter-products />
       </v-col>
-      <v-col cols="9">
+      <v-col cols="12" md="9">
         <product-list :products="filteredProducts" />
       </v-col>
     </v-row>
